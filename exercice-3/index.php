@@ -28,8 +28,11 @@
     ) {
         echo 'Login : ' . $_COOKIE["login"];
         echo 'Password : ' . $_COOKIE["password"];
+        echo '<br><br>';
+        echo '<a href="modif_cookie.php">Modifier les Cookies</a>';
     }
     ?>
+
 
 </body>
 
